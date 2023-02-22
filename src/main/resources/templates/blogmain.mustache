@@ -1,0 +1,22 @@
+<HTML>
+<HEAD>
+    <TITLE>MY BLOG</TITLE>
+</HEAD>
+<BODY>
+{{#rows}}
+    <div>
+    <a href="#">
+        <h2>{{title}}</h2>
+        <h3>{{content}}</h3>
+    </a>
+        <p>Bloged by {{username}} </p>
+    </div>
+{{/rows}}
+<div id="more-blogs"></div>
+<button id="more" last-page="0">MORE</button>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="/ajax.js"></script>
+</BODY>
+</HTML>
+
